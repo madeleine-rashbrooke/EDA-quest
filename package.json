@@ -1,0 +1,26 @@
+{
+  "name": "eda-quest",
+  "version": "1.0.0",
+  "description": "Interactive system based featuring a day at EDA (based on a choose-your-own-adventure)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify . -o bundle.js -g uglifyify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeleine-rashbrooke/EDA-quest.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madeleine-rashbrooke/EDA-quest/issues"
+  },
+  "homepage": "https://github.com/madeleine-rashbrooke/EDA-quest#readme",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "hbsify": "^1.0.1",
+    "uglifyify": "^3.0.2",
+    "watchify": "^3.7.0"
+  }
+}
