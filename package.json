@@ -8,8 +8,10 @@
     "build": "watchify . -o public/bundle.js -g uglifyify"
   },
   "browserify": {
-  "transform": []
-},
+    "transform": [
+      "babelify"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madeleine-rashbrooke/EDA-quest.git"
@@ -25,5 +27,9 @@
     "hbsify": "^1.0.1",
     "uglifyify": "^3.0.2",
     "watchify": "^3.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babelify": "^7.3.0"
   }
 }
