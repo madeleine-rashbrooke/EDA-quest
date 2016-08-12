@@ -8,6 +8,10 @@ border: 1px solid red !important;
 box-sizing: border-box;
 }*/
 
+body {
+  background-image: url("backgrounds/Paper_2.jpg");
+}
+
 @font-face {
   font-family: enchanted-land;
   src: url(fonts/Enchanted-Land.otf);
@@ -32,5 +36,6 @@ box-sizing: border-box;
 }
 
 h1 {
+  font-size: 7em;
   font-family: enchanted-land;
 }
