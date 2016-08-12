@@ -4,27 +4,18 @@
     <meta charset="utf-8" />
     <title>orange-trees</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
   <body>
-    <main>
-      <h1>orange-trees</h1>
-
-      <div class="grove">
-        <button class="plant">Plant Orange Tree</button>
-      </div>
-
-      <div id="orange-tree-template">
-        <div class="orange-tree">
-          <h2>Tree Name</h2>
-          <p class="age">0</p>
-          <p class="fruit-count">0</p>
-          <button class="pick">Pick!</button>
-          <button class="age">Age!</button>
-          <div class="display-tree-big"><div>
-        </div>
-      </div>
-    </main>
+    <div class="flex-container">
+        <h1 id="title">EDA Quest</h1>
+        <br><br>
+        <pre class="jumbotron">The story goes here</pre>
+        <button class="btn btn-primary" id="buttonOption1" type="button" name="goodOption">Option 1</button>
+        <button class="btn btn-primary" id="buttonOption2"type="button" name="badOption">Option 2</button>
+    </div>
     <script src="bundle.js"></script>
   </body>
 </html>
