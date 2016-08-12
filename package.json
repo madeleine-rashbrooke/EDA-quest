@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify . -o bundle.js -g uglifyify"
+    "build": "browserify . -o public/bundle.js -g uglifyify"
   },
+  "browserify": {
+  "transform": []
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madeleine-rashbrooke/EDA-quest.git"
