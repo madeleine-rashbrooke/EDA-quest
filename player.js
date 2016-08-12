@@ -33,3 +33,5 @@ class Player {
     return this.decisions;
   }
 }
+
+module.exports = Player
