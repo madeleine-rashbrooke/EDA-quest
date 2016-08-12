@@ -1,4 +1,4 @@
-* {
+/** {
 border: 1px solid red !important;
 }
 * {
@@ -6,11 +6,11 @@ border: 1px solid red !important;
 -moz-box-sizing: border-box;
 -ms-box-sizing: border-box;
 box-sizing: border-box;
-}
+}*/
 
 @font-face {
-  font-family: squeaky-chalk;
-  src: url(/fonts/squeaky-chalk-sound.regular.ttf);
+  font-family: enchanted-land;
+  src: url(fonts/Enchanted-Land.otf);
 }
 
 .flex-container {
@@ -29,4 +29,8 @@ box-sizing: border-box;
 
 .text-content {
   align-self: center;
+}
+
+h1 {
+  font-family: enchanted-land;
 }
