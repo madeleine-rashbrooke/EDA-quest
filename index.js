@@ -83,8 +83,3 @@ $('#buttonOption2').click(function() {
   game.player.saveDecision()
   refreshScreen()
   })
-
-
-console.log(currentScenario.getScenarioText())
-
-console.log(player.getPlayerName())

@@ -36,6 +36,14 @@ body {
 }
 
 h1 {
-  font-size: 7em;
+  font-size: 100px;
   font-family: enchanted-land;
+}
+
+#scenarioText {
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 20px;
 }
